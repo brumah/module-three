@@ -1,10 +1,6 @@
 runtime: custom
 env: flex
 
-# Environment variables (optional)
-env_variables:
-  PROJECT_ID: your-project-id
-
 # Handlers define the URL patterns to handle
 handlers:
   - url: /.*

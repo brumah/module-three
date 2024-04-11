@@ -11,10 +11,3 @@ steps:
   - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
     entrypoint: "gcloud"
     args: ["app", "deploy"]
-
-# Specify a timeout for the build process
-timeout: "1600s"
-
-# Optionally, set substitutions for variables
-substitutions:
-  _PROJECT_ID: "your-project-id"
