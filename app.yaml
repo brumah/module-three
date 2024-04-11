@@ -1,13 +1,6 @@
 runtime: custom
 env: flex
 
-# This section is for configuring automatic scaling (optional)
-automatic_scaling:
-  min_idle_instances: 1
-  max_idle_instances: automatic # Could be a specific number
-  min_pending_latency: automatic # Minimum time a request waits in the queue
-  max_pending_latency: automatic # Maximum time a request is allowed to wait
-
 # Environment variables (optional)
 env_variables:
   PROJECT_ID: your-project-id
