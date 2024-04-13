@@ -1,8 +1,0 @@
-runtime: custom
-env: flex
-
-# Handlers define the URL patterns to handle
-handlers:
-  - url: /.*
-    script: auto
-    secure: always
